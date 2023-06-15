@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".one.OneActivity">
+
+    <LinearLayout
+        android:layout_marginBottom="40dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translucent_text_view"
+            android:text="@string/one_one_number"
+            android:layout_marginEnd="50dp"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/et_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:background="@drawable/edit_text_selector"
+            android:autofillHints="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="40dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translucent_text_view"
+            android:text="@string/one_two_number"
+            android:layout_marginEnd="50dp"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/et_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:background="@drawable/edit_text_selector"
+            android:autofillHints="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="40dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translucent_text_view"
+            android:text="@string/one_result"
+            android:gravity="center"
+            android:layout_marginEnd="50dp"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tv_res"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_selector"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_cal"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/translucent_text_view"
+        android:text="@string/one_cal"
+        android:textSize="25sp"/>
+
+</LinearLayout>

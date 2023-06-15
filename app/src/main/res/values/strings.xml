@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+    <string name="one">第一个作业</string>
+    <string name="one_one_number">第一个数</string>
+    <string name="one_two_number">第一个数</string>
+    <string name="one_result">结果</string>
+    <string name="one_cal">计算</string>
+    <string name="one_back">返回</string>
+
+    <string name="two">第二个作业</string>
+    <string name="two_register_title">注册信息</string>
+    <string name="two_name">姓名</string>
+    <string name="two_sno">学号</string>
+    <string name="two_major">专业</string>
+    <string name="two_sex">性别</string>
+    <string name="two_sex_man">男</string>
+    <string name="two_sex_woman">女</string>
+    <string name="two_interests">爱好</string>
+    <string name="two_party_member">党员</string>
+    <string name="two_is_party_member">是否党员</string>
+    <string name="two_yes">是</string>
+    <string name="two_no">否</string>
+    <string name="two_confirm">确定</string>
+    <string name="two_back">返回</string>
+    <string name="two_hobby_basketball">篮球</string>
+    <string name="two_hobby_football">足球</string>
+    <string name="two_hobby_baseball">棒球</string>
+    <string name="two_hobby_badminton">羽毛球</string>
+    <string name="two_result_title">你提交的信息</string>
+
+    <string name="three">第三个作业</string>
+
+    <string name="four">第四个作业</string>
+    <string name="four_display">显示其和</string>
+
+    <string name="five">第五个作业</string>
+    <string name="five_clock_in">打卡</string>
+    <string name="five_display_records">显示记录</string>
+
+    <string name="six">第六个作业</string>
+    <string name="six_input_number">请输入整数</string>
+
+    <string name="seven">第七个作业</string>
+    <string name="seven_draw_rectangle">绘制矩形</string>
+    <string name="seven_draw_a_circle">绘制圆形</string>
+    <string name="seven_draw_a_straight_line">绘制直线</string>
+    <string name="seven_please_enter_coordinates">输入坐标</string>
+    <string name="seven_x">x</string>
+    <string name="seven_y">y</string>
+</resources>

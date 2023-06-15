@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".seven.SevenMainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translucent_text_view"
+            android:text="@string/seven_draw_a_circle"
+            android:textSize="@dimen/tvTextSize" />
+
+        <Button
+            android:id="@+id/btn_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translucent_text_view"
+            android:text="@string/seven_draw_a_straight_line"
+            android:textSize="@dimen/tvTextSize" />
+
+        <Button
+            android:id="@+id/btn_rectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translucent_text_view"
+            android:text="@string/seven_draw_rectangle"
+            android:textSize="@dimen/tvTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/seven_please_enter_coordinates"
+            android:textSize="@dimen/tvTextSize" />
+
+        <EditText
+            android:id="@+id/et_x"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_selector"
+            android:gravity="center"
+            android:hint="@string/seven_x"
+            android:inputType="number"
+            android:textSize="@dimen/tvTextSize" />
+
+        <EditText
+            android:id="@+id/et_y"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/edit_text_selector"
+            android:gravity="center"
+            android:hint="@string/seven_y"
+            android:inputType="number"
+            android:textSize="@dimen/tvTextSize" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

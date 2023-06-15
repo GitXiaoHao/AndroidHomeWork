@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".two.TwoRegisterActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/translucent_text_view"
+        android:gravity="center"
+        android:text="@string/two_register_title"
+        android:textSize="@dimen/tvTextSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/translucent_text_view"
+            android:gravity="center"
+            android:text="@string/two_name"
+            android:textSize="@dimen/tvTextSize" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_selector"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/translucent_text_view"
+            android:gravity="center"
+            android:text="@string/two_sno"
+            android:textSize="@dimen/tvTextSize" />
+
+        <EditText
+            android:id="@+id/et_sno"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_selector"
+            android:inputType="number"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/translucent_text_view"
+            android:gravity="center"
+            android:text="@string/two_major"
+            android:textSize="@dimen/tvTextSize" />
+
+        <Spinner
+            android:id="@+id/sp_major"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_selector"
+            android:entries="@array/majorArray"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/translucent_text_view"
+            android:gravity="center"
+            android:text="@string/two_sex"
+            android:textSize="@dimen/tvTextSize" />
+
+        <RadioGroup
+            android:id="@+id/eg_sex"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_man"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="50dp"
+                android:checked="true"
+                android:text="@string/two_sex_man"
+                android:textSize="@dimen/tvTextSize" />
+
+            <RadioButton
+                android:id="@+id/rb_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/two_sex_woman"
+                android:textSize="@dimen/tvTextSize" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/translucent_text_view"
+            android:gravity="center"
+            android:text="@string/two_interests"
+            android:textSize="@dimen/tvTextSize" />
+
+        <CheckBox
+            android:id="@+id/cb_basketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_hobby_basketball"
+            android:textSize="@dimen/tvTextSize" />
+
+        <CheckBox
+            android:id="@+id/cb_football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_hobby_football"
+            android:textSize="@dimen/tvTextSize" />
+
+        <CheckBox
+            android:id="@+id/cb_baseball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_hobby_baseball"
+            android:textSize="@dimen/tvTextSize" />
+
+        <CheckBox
+            android:id="@+id/cb_badminton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_hobby_badminton"
+            android:textSize="@dimen/tvTextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/translucent_text_view"
+            android:gravity="center"
+            android:text="@string/two_is_party_member"
+            android:textSize="@dimen/tvTextSize" />
+
+        <RadioGroup
+            android:id="@+id/rg_party_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="50dp"
+                android:checked="true"
+                android:text="@string/two_yes"
+                android:textSize="@dimen/tvTextSize" />
+
+            <RadioButton
+                android:id="@+id/rb_no"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/two_no"
+                android:textSize="@dimen/tvTextSize" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/translucent_text_view"
+        android:text="@string/two_confirm"
+        android:textSize="@dimen/tvTextSize" />
+</LinearLayout>
